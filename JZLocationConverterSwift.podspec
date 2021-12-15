@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author    = "JackZhouCn"
   s.social_media_url   = "https://twitter.com/JackZhou__"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/JackZhouCn/JZLocationConverter-Swift.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/JackZhouCn/JZLocationConverter-Swift.git", :tag => s.version.to_s }
 
   s.source_files  = "JZLocationConverterDemo/JZLocationConverter/**/*.swift"
 
